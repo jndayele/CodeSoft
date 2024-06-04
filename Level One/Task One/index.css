@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.header-page {
+    background: #97d7eee6;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header-top {
+    color: rgb(20, 1, 1);
+    padding: 20px 30px;
+    background: #97d7eee6;
+    box-shadow: rgb(82, 83, 83);
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-top .logo {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-top .logo span {
+    font-size: 30px;
+    color: blue;
+    font-weight: 700;
+}
+
+
+.left-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-menu li {
+    margin-top: 10px;
+    margin-right: 60px;
+
+}
+
+.left-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.left-menu a:hover {
+    color: #1850df;
+}
+
+.request-call {
+    text-decoration: none;
+    border: 2px solid #0d2561;
+    width: 220px;
+    height: 40px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.request-call:hover {
+    border: 2px solid #2b60e6;
+}
+
+.request-call a:hover {
+    color: #2b60e6;
+}
+
+/* MAIN BODY */
+.main-body {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.main-body h1 {
+    text-align: center;
+    width: 35rem;
+    margin-left: 29rem;
+    margin-bottom: 2rem;
+    color: #1850df;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.main-body p {
+    text-align: justify;
+    width: 30rem;
+    margin-left: 32rem;
+    line-height: 30px;
+}
+
+.icon {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 8rem;
+}
+
+/* SERVICES AND PROCESSES */
+.services {
+    background: #e2f6fde6;
+}
+
+.services .container {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.services .our-service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services h3 {
+    margin-left: 8rem;
+    color: rgb(167, 167, 167);
+    text-transform: uppercase;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.services h1 {
+    font-size: 4rem;
+    margin-left: 8rem;
+    margin-bottom: 2px;
+    color: #1850df;
+}
+
+.services .our-service p {
+    width: 31rem;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+}
+
+.services .our-service img {
+    height: 20em;
+    margin-right: 4rem;
+    margin-top: -4rem;
+}
+
+.services .our-process {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .pro-details {
+    margin-left: 40em;
+}
+
+.services .pro-details h3 {
+    margin-top: 4rem;
+}
+
+.services .our-process img {
+    height: 20em;
+    margin-left: 8rem;
+    margin-top: -4rem;
+}
+
+.services .our-process p {
+    width: 31rem;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+}
+
+/* CLIENTS */
+.services .clients {
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.services .clients h3 {
+    text-align: center;
+    padding-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.services .clients .client-img ul {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 90%;
+    margin-top: 1rem;
+    gap: 1.5rem;
+    border-radius: 8px;
+    justify-content: space-between;
+    margin-left: 8rem;
+    list-style: none;
+}
+
+.services .clients .client-img ul li img {
+    width: 50%;
+    align-content: center;
+}
+
+/* NEWSLETTER FORM */
+.newsletter {
+    min-height: auto;
+    padding-bottom: 7%;
+    border-bottom: 1px solid black;
+    padding-top: 2rem;
+
+}
+
+.newsletter .box .left-menu {
+    padding-left: 6rem;
+}
+
+.newsletter .box .left-menu h2 {
+    text-align: justify;
+    padding-top: 3rem;
+    color: #1850df;
+    font-size: 2rem;
+    padding-bottom: 2.1rem;
+}
+
+.newsletter .box .left-menu p {
+    width: 20rem;
+    text-align: justify;
+    line-height: 1.7rem;
+    color: rgb(167, 167, 167);
+
+}
+
+.newsletter .left-menu form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 2.6rem;
+}
+
+.newsletter .left-menu form .input-box {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.newsletter .left-menu form .input-box .input-field {
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+    padding-bottom: .7rem;
+}
+
+.newsletter .left-menu form .input-box .input-field input,
+.newsletter .left-menu form .country select,
+.newsletter .left-menu form .btn-box button {
+    width: 26rem;
+    height: 50%;
+    padding: .8rem;
+    font-size: 1rem;
+    color: rgb(90, 90, 90);
+    background: transparent;
+    border-radius: .4rem;
+    border: .1rem solid #0d2561;
+    outline: 0;
+}
+
+.newsletter .left-menu form .country select,
+.newsletter .left-menu form .btn-box button {
+    width: 26.5;
+}
+
+.newsletter .left-menu form .btn-box button {
+    background: #1850df;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+
+.newsletter .left-menu form .btn-box button:hover {
+    background: #0d2561;
+
+}
+
+.newsletter .box {
+    display: flex;
+}
+
+.newsletter .box .services-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18rem;
+    padding-top: 7rem;
+}
+
+.newsletter .box .services-section .service {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+.newsletter .box .services-section .service .icons h2 {
+    font-size: 1rem;
+    margin-left: 1.6rem;
+    padding-top: .8rem;
+}
+
+.newsletter .box .services-section .service .icons {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+.newsletter .box .services-section .service p {
+    width: 20rem;
+    padding-bottom: 1.6rem;
+    text-align: justify;
+    margin-left: 4rem;
+
+}
+
+.newsletter .box .services-section .service .icons .bx {
+    color: #2b60e6;
+}
+
+/* THE TEAM AND BOARD OF DIRECTORS */
+.board-directors .directors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-left: 9rem;
+}
+
+.board-directors .directors .img {
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.board-directors .directors .img .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-directors .directors .img .text p {
+    width: 15rem;
+    text-align: start;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.board-directors .directors .img .text .name h4 {
+    padding-left: .7rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(90, 90, 90);
+}
+
+.board-directors .directors .img .text .name p {
+    padding-top: .3rem;
+    margin-left: .6rem;
+}
+
+.culture {
+    padding-bottom: 10rem;
+}
+
+.board-directors .directors .img .culture {
+    padding-bottom: 12rem;
+}
+
+/* Footer */
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background: #e9e7e7;
+    padding-top: 5rem;
+}
+
+footer .footer {
+    display: flex;
+    gap: 14rem;
+}
+
+.footer h3 {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+}
+
+.footer .company {
+    margin-left: 6rem;
+}
+
+.footer .company p {
+    width: 15rem;
+}
+
+.footer .company .location p {
+    width: 10rem;
+}
+
+.footer .company p {
+    padding-bottom: 3rem;
+}
+
+.footer .socials ul {
+    list-style: none;
+    line-height: 2rem;
+}
+
+.footer .socials a {
+    color: black;
+}
+
+.footer .socials a:hover {
+    color: #1850df;
+}
+
+.footer .about p {
+    width: 23rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
